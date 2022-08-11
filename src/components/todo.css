@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQn8mDPq_WA0nYNKXmusfCGieNqH6Tw7MNhQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  
+  .parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  
+  .add-btn {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 5px;
+    border-radius: 10px;
+  }
+  
+  .add-btn:hover {
+    background-color: rgb(88, 121, 45);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .del-btn {
+    background-color: rgb(201, 31, 25); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  .del-btn:hover {
+    background-color: rgb(146, 55, 55);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .todos-list {
+    overflow-y: scroll;
+    max-height: 70vh;
+    border: 1px solid rgb(183, 216, 183);
+    border-radius: 10px;
+    min-height: 50vh;
+  }
+  
+  /* .todos-list::-webkit-scrollbar {
+    display: none;
+  } */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .done-task {
+    text-decoration: line-through;
+  }
+  
+  input[type="text"] {
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus {
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 10px #ce8771;
+  }
+  
+  .todo-creator {
+    display: flex;
+    flex-direction: column;
+  }
+  

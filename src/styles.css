@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+  
